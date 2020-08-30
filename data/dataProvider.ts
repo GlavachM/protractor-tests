@@ -6,7 +6,6 @@ export class dataProvider {
     /**
      * This method is used to read data from Json file using language and dataname filters
      *
-     * @author narottam
      * @param dataProviderFile
      * @param dataName
      * @returns result object
@@ -23,7 +22,6 @@ export class dataProvider {
      * This method is used to write Json data to Json file using language and dataname
      * filters with the help of key & value pair.
      *
-     * @author narottamc
      * @param dataProviderFile
      * @param dataName
      * @param key
