@@ -10,7 +10,6 @@ describe('Login', () => {
     beforeEach(() => {
         browser.waitForAngularEnabled(false);
     });
-
     afterEach(() => {
         browser.refresh();
     });
