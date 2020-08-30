@@ -22,7 +22,7 @@ describe('Login', () => {
             done();
     });
 
-    it('Forgot password', (done) => {
+    it('Forgot password. Unrecognized email address.', (done) => {
         BrowserUtil.waitUntilReady(loginPg.forgotPassword());
         loginPg.forgotPassword().click();
         BrowserUtil.waitUntilReady(loginPg.emailAddress());
