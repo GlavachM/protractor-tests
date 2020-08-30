@@ -41,6 +41,7 @@ export class loginPage {
      * @param {string} username Username to login as
      * @param {string} password Password to login as
      */
+    
     login(loginData) {
         this.userName().sendKeys(loginData.username);
         this.userPassword().sendKeys(loginData.password);
