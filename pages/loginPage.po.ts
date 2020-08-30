@@ -35,9 +35,6 @@ export class loginPage {
     }
 
     /**
-     * Opens global header's Institutional Sign In modal and
-     * signs in using specified username/password.
-     *
      * @param {string} username Username to login as
      * @param {string} password Password to login as
      */
